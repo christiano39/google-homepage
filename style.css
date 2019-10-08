@@ -1,3 +1,5 @@
+/* Made by Christiano39 */
+
 @import url("reset.css");
 
 #google-apps{
@@ -137,7 +139,7 @@ body {
     width: 30%;
     height: 21px;
     margin: 0 auto;
-    border: none; /* <-- This thing here */
+    border: none;
     border:solid 1px #ccc;
     border-radius: 15px;
     height: 30px;
