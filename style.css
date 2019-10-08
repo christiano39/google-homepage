@@ -72,12 +72,43 @@ a {
 
 .search-buttons {
     text-align: center;
-    margin-top: 15px;
+    position: relative;
+    top: 35px;
+}
+
+.search-buttons span {
+    text-align: center;
+    margin-top: 11px;
+    margin-right: 4px;
+    padding: 10px;
+    background-color: rgb(242, 242, 242);
+    border-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    border-radius: 4px;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.search-buttons span:hover {
+    text-align: center;
+    margin-top: 11px;
+    margin-right: 4px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-color: rgb(198, 198, 198);
+    background-color: rgb(242, 242, 242);
+    color: rgb(34, 34, 34);
+    border-style: solid;
+    border-width: 1px;
 }
 
 .security {
     text-align: center;
     color: #222;
+    position: relative;
+    top: 50px;
 }
 
 .security a {
@@ -86,10 +117,14 @@ a {
 
 .bottom {
     position: relative;
-    top: 400px;
+    top: 450px;
 }
 
 .navcontainer a:hover {
+    text-decoration-line: underline;
+}
+
+.security a:hover {
     text-decoration-line: underline;
 }
 
