@@ -132,3 +132,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
+
+.search-bar input{
+    width: 30%;
+    height: 21px;
+    margin: 0 auto;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 15px;
+    height: 30px;
+    font-size: 17px;
+    padding-left: 7px;
+    color: rbga(0, 0, 0, 0.87);
+}
