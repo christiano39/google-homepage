@@ -1,5 +1,7 @@
-#google-apps {
-    max-width: 40px;
+@import url("reset.css");
+
+#google-apps{
+    max-width: 30px;
     height: auto;
 }
 
@@ -11,4 +13,87 @@
 #secure {
     max-width: 40px;
     height: auto;
+    position: relative;
+    top: 16px;
+    left: 4px;
+}
+
+.navcontainer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navcontainer ul li {
+    display: inline;
+}
+
+.left {
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    margin-right: 15px;
+}
+
+.right {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 25px;
+    margin-left: 15px;
+}
+
+.right #google-apps {
+    position: relative;
+    float: right;
+    bottom: 8px;
+}
+
+
+a:visited {
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+}
+
+a {
+    color: rgb(73, 71, 71);
+    text-decoration: none;
+}
+
+.logo {
+    text-align: center;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.search-buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.security {
+    text-align: center;
+    color: #222;
+}
+
+.security a {
+    color: #1a0dab;
+}
+
+.bottom {
+    position: relative;
+    top: 400px;
+}
+
+.navcontainer a:hover {
+    text-decoration-line: underline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
